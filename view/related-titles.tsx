@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import iconWrapperIcon from "../../assets/icons/Union.svg";
-import imageRelated from "../../assets/images/image.png";
+import iconWrapperIcon from "../assets/icons/Union.svg";
+import imageRelated from "../assets/images/image.png";
 
 const dataRelatedTitles = [
   {

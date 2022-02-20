@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import QRCode from "../../assets/images/qrcode.svg";
+import QRCode from "../assets/images/qrcode.svg";
 
 const QrCode = () => {
   return (

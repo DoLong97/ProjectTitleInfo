@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import shareIcon from "../../assets/icons/share.svg";
-import menuIcon from "../../assets/icons/menu.svg";
-import ImageKaSane from "../../assets/images/kasane.png";
-import bookIcon from "../../assets/icons/book.svg";
-import likeIcon from "../../assets/icons/like.svg";
+import shareIcon from "../assets/icons/share.svg";
+import menuIcon from "../assets/icons/menu.svg";
+import ImageKaSane from "../assets/images/kasane.png";
+import bookIcon from "../assets/icons/book.svg";
+import likeIcon from "../assets/icons/like.svg";
 
 const dataCardInfo = {
   image: ImageKaSane,

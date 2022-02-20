@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import WrapperIcon from "../../assets/icons/icon-wrapper.svg";
-import ThumbnailClosed from "../../assets/images/ThumbnailClosed.svg";
-import Thumbnail from "../../assets/images/Thumbnail.svg";
-import notificationIcon from "../../assets/icons/notification.svg";
-import sortIcon from "../../assets/icons/sort.svg";
+import WrapperIcon from "../assets/icons/icon-wrapper.svg";
+import ThumbnailClosed from "../assets/images/ThumbnailClosed.svg";
+import Thumbnail from "../assets/images/Thumbnail.svg";
+import notificationIcon from "../assets/icons/notification.svg";
+import sortIcon from "../assets/icons/sort.svg";
 
 const dataLastRead = [
   {
@@ -37,7 +37,7 @@ const dataLastRead = [
     text: "Chapter 4",
     date: "Last read 2 days ago",
     start: 5,
-    isLocked: false,
+    isLocked: true,
   },
   {
     id: "5",

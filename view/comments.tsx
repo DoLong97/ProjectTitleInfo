@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import { Space, Input, Button } from "antd";
-import commentAvatarIcon from "../../assets/icons/comment-avatar.svg";
-import sendIcon from "../../assets/icons/send.svg";
+import commentAvatarIcon from "../assets/icons/comment-avatar.svg";
+import sendIcon from "../assets/icons/send.svg";
 import { MessageOutlined, LikeOutlined } from "@ant-design/icons";
 
-const IconText = ({ icon, text }) => (
+const IconText = (props: any) => (
   <Space>
-    {React.createElement(icon)}
-    {text}
+    {React.createElement(props. icon)}
+    {props.text}
   </Space>
 );
 const Comments = () => {
@@ -32,13 +32,13 @@ const Comments = () => {
           <div className="action-comment">
             <IconText
               icon={LikeOutlined}
-              text="156"
+              text="61"
               key="list-vertical-like-o"
             />
             &emsp;
             <IconText
               icon={MessageOutlined}
-              text="2"
+              text="12"
               key="list-vertical-message"
             />
             &emsp;

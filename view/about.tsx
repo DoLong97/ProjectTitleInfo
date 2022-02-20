@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import image1 from "../../assets/images/kasane.png";
-import image2 from "../../assets/images/about-kasane-1.png";
-import image3 from "../../assets/images/about-kasane-2.png";
-import image4 from "../../assets/images/about-kasane-3.png";
-import commentAvatarIcon from "../../assets/icons/comment-avatar.svg";
+import image1 from "../assets/images/about-kaSane.png";
+import image2 from "../assets/images/about-kaSane-1.png";
+import image3 from "../assets/images/about-kaSane-2.png";
+import image4 from "../assets/images/about-kaSane-3.png";
+import commentAvatarIcon from "../assets/icons/comment-avatar.svg";
 
 const dataAbout = {
   summary:
